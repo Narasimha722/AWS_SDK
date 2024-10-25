@@ -1,0 +1,13 @@
+prefix=D:/GangiMamaProj/Python/GangiTasks/venv/Library
+exec_prefix=D:/GangiMamaProj/Python/GangiTasks/venv/Library
+libdir=D:/GangiMamaProj/Python/GangiTasks/venv/Library/lib
+sharedlibdir=D:/GangiMamaProj/Python/GangiTasks/venv/Library/lib
+includedir=D:/GangiMamaProj/Python/GangiTasks/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
